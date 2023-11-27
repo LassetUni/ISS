@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.scene51Controller">
+   <children>
+      <Label layoutX="283.0" layoutY="33.0" text="Kino 1" />
+      <Label layoutX="199.0" layoutY="98.0" text="Parkett:" />
+      <Label layoutX="205.0" layoutY="159.0" text="Loge:" />
+      <Label layoutX="144.0" layoutY="214.0" text="Loge mit Service:" />
+      <Spinner fx:id="parkettSpinner" initialValue="1" layoutX="239.0" layoutY="94.0" max="5" min="1" prefHeight="25.0" prefWidth="122.0" />
+      <Spinner fx:id="logeSpinner" initialValue="1" layoutX="239.0" layoutY="155.0" max="5" min="1" prefHeight="25.0" prefWidth="122.0" />
+      <Spinner fx:id="logeMitServiceSpinner" initialValue="1" layoutX="239.0" layoutY="210.0" max="5" min="1" prefHeight="25.0" prefWidth="122.0" />
+      <Button fx:id="anlegenButton" layoutX="361.0" layoutY="304.0" mnemonicParsing="false" text="Sitzpläze anlegen" />
+      <Button layoutX="179.0" layoutY="304.0" mnemonicParsing="false" onAction="#switchToScene4" text="Zurück" />
+   </children>
+</AnchorPane>
